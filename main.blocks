@@ -1,0 +1,61 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="?rL6dEsN_(B:V4vRggic" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="OY*#%RCs(e2dnxs9ED2X"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_forever" id="21*VJ1sZczTpu1$!lY1~" x="270" y="1"></block><block type="device_pin_event" id="sUG,2s:sSehqZDW=J:0u" x="85" y="334"><field name="name">TouchPin.P0</field><statement name="HANDLER"><block type="basic_show_icon" id=",.R;M$k|w|4eLt%i:dC_"><field name="i">IconNames.Surprised</field><next><block type="device_show_leds" id="d,YOa(@j}Ik}%LU)qt$R"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_pin_event" id="QVq%m1341x(jF`X8:_SP" x="377" y="327"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="basic_show_icon" id=":RfOsA3oIiX:z{T99}G3"><field name="i">IconNames.Sad</field><next><block type="device_show_leds" id="tA_1QQJqFQ{k${f!F8.r"><field name="LEDS">`
+        . . . . # 
+        . # . # . 
+        . . . # . 
+        . # . # . 
+        . . . . #
+        `</field><next><block type="device_pause" id="8`h5WC2wY#0M{!BIfdm5"><value name="pause"><shadow type="timePicker" id="QlfLPAlh{0(H4o;I,+97"><field name="ms">700</field></shadow></value><next><block type="device_show_leds" id="XT~4ore(hbo+*wAH4k5*"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="}6_eTO@s@FSQ?)cAU:zg" x="646" y="326"><field name="action">TouchButtonEvent.LongPressed</field><statement name="HANDLER"><block type="basic_show_icon" id="b@k$1)Wv}EcWbn0;}y:{"><field name="i">IconNames.Silly</field></block></statement></block><block type="input_logo_event" id="z%Up}2TDHp?118DhCi-]" x="903" y="321"><field name="action">TouchButtonEvent.Released</field><statement name="HANDLER"><block type="device_show_leds" id="3h[YL8^[XiInY(H3~a!_"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_pin_event" id="`0)zygUw*wZaBwWW6r(f" x="1130" y="319"><field name="name">TouchPin.P2</field><statement name="HANDLER"><block type="device_show_leds" id="JQ8#+eL5(FpKz7~CI;2#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="basic_show_icon" id="ylpVYl0,C.r)olG^iQpS"><field name="i">IconNames.Sad</field><next><block type="device_show_leds" id="o`]Y#=([^$t^ChaB:P{8"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="T,0,ol8Mxt_u`8w!J!!~" x="1419" y="310"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="yT1neYU`U$aec3.pem*4"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="?f$@aeo0RGK{sy36On%y"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="t~q%0.s){*j;$uMNu*ce"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
